@@ -1,0 +1,23 @@
+{
+  "name": "limingkang-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js --exec babel-node --presets env,stage-0",
+    "json-server": "./node_modules/.bin/json-server --watch db.json --port 3300"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.14.3"
+  }
+}
